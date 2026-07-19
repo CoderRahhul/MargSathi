@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "skipLibCheck": true,
+
+    "moduleResolution": "bundler",
+    "noEmit": true,
+    "jsx": "react-jsx",
+
+    "strict": false,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noImplicitAny": false,
+    "noFallthroughCasesInSwitch": false,
+
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+
+    "ignoreDeprecations": "6.0"
+  },
+  "include": ["src"]
+}
